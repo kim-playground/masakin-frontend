@@ -2,7 +2,7 @@
 
 Welcome to **Masakin**, a modern, social-media inspired recipe sharing platform. Masakin is designed for food enthusiasts who want to discover, create, and share delicious recipes within a vibrant community of home cooks and professional chefs.
 
-![Masakin App Preview](<img width="1470" height="800" alt="Image" src="https://github.com/user-attachments/assets/bf912143-da55-47bd-86b6-592be8869e89" />)
+![Masakin App Preview]("https://github.com/user-attachments/assets/bf912143-da55-47bd-86b6-592be8869e89")
 
 ## ✨ Main Features
 
@@ -47,7 +47,7 @@ Masakin is built with a focus on premium aesthetics and effortless user experien
 
     ```bash
     git clone https://github.com/kim-playground/masakin-frontend.git
-    cd flavor-feed
+    cd masakin-frontend
     ```
 
 2.  **Install dependencies**
@@ -79,4 +79,4 @@ This project is private and intended for internal use.
 
 ---
 
-Built with ❤️ by the Masakin Team (Kim Lanisa Here).
+Built with ❤️ by Kim Lanisa Here - the Masakin Team
