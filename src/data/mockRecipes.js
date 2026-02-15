@@ -1,0 +1,195 @@
+import recipe1 from "@/assets/recipe-1.jpg";
+import recipe2 from "@/assets/recipe-2.jpg";
+import recipe3 from "@/assets/recipe-3.jpg";
+import recipe4 from "@/assets/recipe-4.jpg";
+import recipe5 from "@/assets/recipe-5.jpg";
+import recipe6 from "@/assets/recipe-6.jpg";
+import recipe7 from "@/assets/recipe-7.jpg";
+
+export const mockRecipes = [
+  {
+    id: "1",
+    title: "Creamy Salmon Macaroni with Lemon Sour Crunchy Cheese",
+    image: recipe1,
+    category: "Pasta",
+    date: "Oct 23, 2023",
+    cookTime: "45 Minutes Cook",
+    description:
+      "Spice is a highlight of this simple soup recipe from a variety of spices and seasonings. Nutmeg provides an earthy sweetness, while ground pepper provides a bit of peppery notes to balance the richness.",
+    author: "Chef Thomas",
+    ingredients: [
+      "400g macaroni",
+      "200g smoked salmon",
+      "200ml heavy cream",
+      "100g crunchy cheese",
+      "2 lemons",
+      "Salt & pepper",
+      "Fresh dill",
+    ],
+    steps: [
+      "Boil macaroni until al dente",
+      "Prepare cream sauce with lemon zest",
+      "Fold in smoked salmon",
+      "Top with crunchy cheese",
+      "Bake at 180°C for 15 minutes",
+    ],
+  },
+  {
+    id: "2",
+    title: "Rice with Chili Sauce and Chicken",
+    image: recipe2,
+    category: "Rice",
+    date: "Oct 30, 2023",
+    cookTime: "35 Minutes Cook",
+    description:
+      "Chili oil and red sauce is a staple of rice as an easy appetizer in a restaurant. A balance of spice with the freshness of green beans make it a great side dish.",
+    author: "Chef Maria",
+    ingredients: [
+      "300g jasmine rice",
+      "250g chicken breast",
+      "3 tbsp chili sauce",
+      "Green onions",
+      "Soy sauce",
+      "Garlic",
+    ],
+    steps: [
+      "Cook rice until fluffy",
+      "Marinate chicken with soy sauce",
+      "Grill chicken until golden",
+      "Prepare chili sauce",
+      "Serve rice topped with chicken and sauce",
+    ],
+  },
+  {
+    id: "3",
+    title: "Healthy Oat with Almond",
+    image: recipe3,
+    category: "Oat",
+    date: "Nov 01, 2023",
+    cookTime: "15 Minutes Cook",
+    description:
+      "According to what nutritionists tell us, oatmeal contains a high amount of fiber and nutrients that is good for a healthy lifestyle. Perfect breakfast recipe.",
+    author: "Chef Ana",
+    ingredients: [
+      "100g rolled oats",
+      "50g sliced almonds",
+      "Fresh blueberries",
+      "Honey",
+      "Almond milk",
+      "Cinnamon",
+    ],
+    steps: [
+      "Warm almond milk",
+      "Add oats and cook for 5 minutes",
+      "Top with almonds and berries",
+      "Drizzle with honey",
+      "Sprinkle cinnamon",
+    ],
+  },
+  {
+    id: "4",
+    title: "Spicy Curry with Chili Powder",
+    image: recipe4,
+    category: "Curry",
+    date: "Nov 05, 2023",
+    cookTime: "25 Minutes Cook",
+    description:
+      "Spice is a highlight of this simple curry recipe. The combination of vegetables such as meat, chicken and vegetables makes this dish incredibly flavorful.",
+    author: "Chef Raj",
+    ingredients: [
+      "500g chicken thighs",
+      "2 tbsp curry powder",
+      "1 can coconut milk",
+      "Chili flakes",
+      "Onion",
+      "Garlic",
+      "Ginger",
+    ],
+    steps: [
+      "Sauté onion, garlic and ginger",
+      "Add curry powder and chili",
+      "Add chicken pieces",
+      "Pour coconut milk",
+      "Simmer for 20 minutes",
+    ],
+  },
+  {
+    id: "5",
+    title: "Mushroom Pizza and Onion with Vegetables Topping",
+    image: recipe5,
+    category: "Pizza",
+    date: "Nov 06, 2023",
+    cookTime: "30 Minutes Cook",
+    description:
+      "Treat yourself with a satisfying combination of mushrooms and family-style pizza crust. The parchment of golden-brown crust is a signature of satisfying texture and flavor.",
+    author: "Chef Marco",
+    ingredients: [
+      "Pizza dough",
+      "200g mushrooms",
+      "1 onion",
+      "Mozzarella",
+      "Tomato sauce",
+      "Olive oil",
+      "Fresh basil",
+    ],
+    steps: [
+      "Roll out dough",
+      "Spread tomato sauce",
+      "Add sliced mushrooms and onions",
+      "Top with mozzarella",
+      "Bake at 220°C for 12 minutes",
+    ],
+  },
+  {
+    id: "6",
+    title: "Cow Steak with Vegetables and Sauce",
+    image: recipe6,
+    category: "Meat",
+    date: "Nov 14, 2023",
+    cookTime: "40 Minutes Cook",
+    description:
+      "Perfectly seared steak with a creamy garlic sauce. This high-protein dish is perfect for meat lovers and pairs well with seasonal vegetables.",
+    author: "Chef Gordon",
+    ingredients: [
+      "300g beef steak",
+      "Mixed vegetables",
+      "Garlic butter",
+      "Green herb sauce",
+      "Salt & pepper",
+      "Olive oil",
+    ],
+    steps: [
+      "Season steak with salt and pepper",
+      "Sear on high heat 3 min each side",
+      "Rest for 5 minutes",
+      "Grill vegetables",
+      "Serve with green sauce",
+    ],
+  },
+  {
+    id: "7",
+    title: "Fish Meat and Vegetables with Potato",
+    image: recipe7,
+    category: "Fish",
+    date: "Nov 05, 2023",
+    cookTime: "35 Minutes Cook",
+    description:
+      "Salmon and vegetables that perfectly balance a gourmet protein dish. It pairs well with potatoes, making it both comforting and wholesome.",
+    author: "Chef Julia",
+    ingredients: [
+      "400g white fish fillet",
+      "Baby potatoes",
+      "Cherry tomatoes",
+      "Fresh rosemary",
+      "Lemon",
+      "Olive oil",
+    ],
+    steps: [
+      "Season fish with herbs",
+      "Roast potatoes at 200°C",
+      "Pan-sear fish 4 min each side",
+      "Roast tomatoes",
+      "Plate and garnish with rosemary",
+    ],
+  },
+];

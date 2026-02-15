@@ -1,0 +1,15 @@
+export const categories = [
+  "Breakfast",
+  "Brunch",
+  "Lunch",
+  "Dinner",
+  "Dessert",
+  "Appetizer",
+  "Salad",
+  "Soup",
+  "Drink",
+  "Snack",
+  "Vegetarian",
+  "Vegan",
+  "Other",
+];

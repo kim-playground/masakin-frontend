@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Brand Colors - Tasty Orange & Freshness */
+    --background: 0 0% 100%;
+    --foreground: 20 10% 4%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 20 10% 4%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 20 10% 4%;
+
+    /* Primary: Vibrant Tasty Orange */
+    --primary: 25 95% 53%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary: Soft Warm Amber/Cream */
+    --secondary: 35 30% 96%;
+    --secondary-foreground: 20 10% 10%;
+
+    --muted: 35 15% 94%;
+    --muted-foreground: 20 10% 40%;
+
+    /* Accent: Fresh Herb Green (Hint of) */
+    --accent: 142 70% 45%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 20 10% 92%;
+    --input: 20 10% 92%;
+    --ring: 25 95% 53%;
+
+    --radius: 1rem; /* More rounded as per theme */
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 25 95% 53%;
+
+    /* Typography Sync - Matching tailwind.config.js and index.html */
+    --font-display: "Outfit", sans-serif;
+    --font-body: "Plus Jakarta Sans", sans-serif;
+
+    --footer-bg: 20 10% 10%;
+    --footer-foreground: 0 0% 85%;
+  }
+
+  .dark {
+    --background: 20 15% 4%;
+    --foreground: 0 0% 98%;
+    --card: 20 15% 6%;
+    --card-foreground: 0 0% 98%;
+    --popover: 20 15% 6%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 25 95% 53%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 20 15% 12%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 20 15% 12%;
+    --muted-foreground: 0 0% 65%;
+
+    --accent: 142 60% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 40%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 20 15% 15%;
+    --input: 20 15% 15%;
+    --ring: 25 95% 53%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-display font-semibold;
+    font-family: var(--font-display);
+  }
+}
